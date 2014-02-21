@@ -1,0 +1,333 @@
+
+     _-----_
+    |       |
+    |--(o)--|   .--------------------------.
+   `---------´  |    Welcome to Yeoman,    |
+    ( _´U`_ )   |   ladies and gentlemen!  |
+    /___A___\   '__________________________'
+     |  ~  |
+   __'.___.'__
+ ´   `  |° ´ Y `
+
+Out of the box I include Bootstrap and some AngularJS recommended modules.
+
+[[32m?[39m] Would you like to use Sass (with Compass)? (Y/n) [2K[1A[2K[[32m?[39m] Would you like to use Sass (with Compass)? [36mNo[39m
+[[32m?[39m] Would you like to include Twitter Bootstrap? (Y/n) [2K[1A[2K[[32m?[39m] Would you like to include Twitter Bootstrap? [36mYes[39m
+[[32m?[39m] Which modules would you like to include? [90m(Press <space> to select)[39m
+[36m‣[39m[32m⬢[39m angular-resource.js
+ [32m⬢[39m angular-cookies.js
+ [32m⬢[39m angular-sanitize.js
+ [32m⬢[39m angular-route.js[?25l[?25h
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[[32m?[39m] Which modules would you like to include? [36mangular-resource.js, angular-cookies.js, angular-sanitize.js, angular-route.js[39m
+
+
+I'm all done. Running bower install & npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+bower angular#1.2.6             cached git://github.com/angular/bower-angular.git#1.2.6
+bower angular#1.2.6           validate 1.2.6 against git://github.com/angular/bower-angular.git#1.2.6
+bower json3#~3.2.6              cached git://github.com/bestiejs/json3.git#3.2.6
+bower json3#~3.2.6            validate 3.2.6 against git://github.com/bestiejs/json3.git#~3.2.6
+bower jquery#~1.10.2            cached git://github.com/jquery/jquery.git#1.10.2
+bower jquery#~1.10.2          validate 1.10.2 against git://github.com/jquery/jquery.git#~1.10.2
+bower es5-shim#~2.1.0           cached git://github.com/es-shims/es5-shim.git#2.1.0
+bower es5-shim#~2.1.0         validate 2.1.0 against git://github.com/es-shims/es5-shim.git#~2.1.0
+bower angular-resource#1.2.6    cached git://github.com/angular/bower-angular-resource.git#1.2.6
+bower angular-resource#1.2.6  validate 1.2.6 against git://github.com/angular/bower-angular-resource.git#1.2.6
+bower angular-cookies#1.2.6     cached git://github.com/angular/bower-angular-cookies.git#1.2.6
+bower angular-cookies#1.2.6   validate 1.2.6 against git://github.com/angular/bower-angular-cookies.git#1.2.6
+bower angular-sanitize#1.2.6    cached git://github.com/angular/bower-angular-sanitize.git#1.2.6
+bower angular-sanitize#1.2.6  validate 1.2.6 against git://github.com/angular/bower-angular-sanitize.git#1.2.6
+bower bootstrap#~3.0.3          cached git://github.com/twbs/bootstrap.git#3.0.3
+bower bootstrap#~3.0.3        validate 3.0.3 against git://github.com/twbs/bootstrap.git#~3.0.3
+bower angular-route#1.2.6       cached git://github.com/angular/bower-angular-route.git#1.2.6
+bower angular-route#1.2.6     validate 1.2.6 against git://github.com/angular/bower-angular-route.git#1.2.6
+bower angular-scenario#1.2.6    cached git://github.com/angular/bower-angular-scenario.git#1.2.6
+bower angular-scenario#1.2.6  validate 1.2.6 against git://github.com/angular/bower-angular-scenario.git#1.2.6
+bower angular-mocks#1.2.6       cached git://github.com/angular/bower-angular-mocks.git#1.2.6
+bower angular-mocks#1.2.6     validate 1.2.6 against git://github.com/angular/bower-angular-mocks.git#1.2.6
+bower jquery#>= 1.9.0           cached git://github.com/jquery/jquery.git#2.1.0
+bower jquery#>= 1.9.0         validate 2.1.0 against git://github.com/jquery/jquery.git#>= 1.9.0
+bower sizzle#1.10.16            cached git://github.com/jquery/sizzle.git#1.10.16
+bower sizzle#1.10.16          validate 1.10.16 against git://github.com/jquery/sizzle.git#1.10.16
+bower angular#1.2.6            install angular#1.2.6
+bower json3#~3.2.6             install json3#3.2.6
+bower angular-route#1.2.6      install angular-route#1.2.6
+bower angular-sanitize#1.2.6   install angular-sanitize#1.2.6
+bower angular-cookies#1.2.6    install angular-cookies#1.2.6
+bower jquery#~1.10.2           install jquery#1.10.2
+bower angular-resource#1.2.6   install angular-resource#1.2.6
+bower es5-shim#~2.1.0          install es5-shim#2.1.0
+bower bootstrap#~3.0.3         install bootstrap#3.0.3
+bower angular-mocks#1.2.6      install angular-mocks#1.2.6
+bower angular-scenario#1.2.6   install angular-scenario#1.2.6
+bower sizzle#1.10.16           install sizzle#1.10.16
+
+angular#1.2.6 app/bower_components/angular
+
+json3#3.2.6 app/bower_components/json3
+
+angular-route#1.2.6 app/bower_components/angular-route
+└── angular#1.2.6
+
+angular-sanitize#1.2.6 app/bower_components/angular-sanitize
+└── angular#1.2.6
+
+angular-cookies#1.2.6 app/bower_components/angular-cookies
+└── angular#1.2.6
+
+jquery#1.10.2 app/bower_components/jquery
+
+angular-resource#1.2.6 app/bower_components/angular-resource
+└── angular#1.2.6
+
+es5-shim#2.1.0 app/bower_components/es5-shim
+
+bootstrap#3.0.3 app/bower_components/bootstrap
+└── jquery#1.10.2
+
+angular-mocks#1.2.6 app/bower_components/angular-mocks
+└── angular#1.2.6
+
+angular-scenario#1.2.6 app/bower_components/angular-scenario
+└── angular#1.2.6
+
+sizzle#1.10.16 app/bower_components/sizzle
+
+> chokidar@0.8.1 postinstall /home/ubuntu/youtube_6/node_modules/karma/node_modules/chokidar
+> node setup-deps.js
+
+
+> grunt-autoprefixer@0.4.2 postinstall /home/ubuntu/youtube_6/node_modules/grunt-autoprefixer
+> 
+
+
+> ws@0.4.31 install /home/ubuntu/youtube_6/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/ubuntu/youtube_6/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/ubuntu/youtube_6/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
+
+> phantomjs@1.9.7-1 install /home/ubuntu/youtube_6/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+> node install.js
+
+Download already available at /tmp/phantomjs/phantomjs-1.9.7-linux-x86_64.tar.bz2
+Extracting tar contents (via spawned process)
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.7-linux-x86_64.tar.bz2-extract-1392762566302/phantomjs-1.9.7-linux-x86_64 -> /home/ubuntu/youtube_6/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /home/ubuntu/youtube_6/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
+karma-ng-scenario@0.1.0 node_modules/karma-ng-scenario
+
+grunt@0.4.2 node_modules/grunt
+├── which@1.0.5
+├── dateformat@1.0.2-1.2.3
+├── eventemitter2@0.4.13
+├── getobject@0.1.0
+├── colors@0.6.2
+├── hooker@0.2.3
+├── async@0.1.22
+├── exit@0.1.2
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── rimraf@2.0.3 (graceful-fs@1.1.14)
+├── lodash@0.9.2
+├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+├── coffee-script@1.3.3
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── underscore.string@2.2.1
+├── iconv-lite@0.2.11
+├── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.15)
+└── findup-sync@0.1.2 (lodash@1.0.1)
+
+grunt-karma@0.6.2 node_modules/grunt-karma
+└── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.7)
+
+karma-script-launcher@0.1.0 node_modules/karma-script-launcher
+
+karma-chrome-launcher@0.1.2 node_modules/karma-chrome-launcher
+
+karma-firefox-launcher@0.1.3 node_modules/karma-firefox-launcher
+
+karma-html2js-preprocessor@0.1.0 node_modules/karma-html2js-preprocessor
+
+karma-jasmine@0.1.5 node_modules/karma-jasmine
+
+requirejs@2.1.11 node_modules/requirejs
+
+karma-requirejs@0.2.1 node_modules/karma-requirejs
+
+karma-coffee-preprocessor@0.1.3 node_modules/karma-coffee-preprocessor
+└── coffee-script@1.7.1 (mkdirp@0.3.5)
+
+karma-phantomjs-launcher@0.1.2 node_modules/karma-phantomjs-launcher
+└── phantomjs@1.9.7-1 (which@1.0.5, rimraf@2.2.6, ncp@0.4.2, kew@0.1.7, mkdirp@0.3.5, adm-zip@0.2.1, npmconf@0.0.24)
+
+karma@0.10.9 node_modules/karma
+├── di@0.0.1
+├── rimraf@2.1.4
+├── colors@0.6.0-1
+├── graceful-fs@1.2.3
+├── chokidar@0.8.1
+├── mime@1.2.11
+├── q@0.9.7
+├── glob@3.1.21 (inherits@1.0.0)
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── optimist@0.3.7 (wordwrap@0.0.2)
+├── coffee-script@1.6.3
+├── lodash@1.1.1
+├── log4js@0.6.10 (semver@1.1.4, async@0.1.15, readable-stream@1.0.25)
+├── http-proxy@0.10.4 (pkginfo@0.3.0, optimist@0.6.1, utile@0.2.1)
+├── connect@2.8.8 (methods@0.0.1, uid2@0.0.2, pause@0.0.1, cookie-signature@1.0.1, fresh@0.2.0, debug@0.7.4, qs@0.6.5, bytes@0.2.0, buffer-crc32@0.2.1, cookie@0.1.0, send@0.1.4, formidable@1.0.14)
+├── useragent@2.0.7 (lru-cache@2.2.4)
+└── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
+
+karma-ng-html2js-preprocessor@0.1.0 node_modules/karma-ng-html2js-preprocessor
+
+> optipng-bin@0.3.1 postinstall /home/ubuntu/youtube_6/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin
+> node lib/check.js
+
+
+
+
+✓ pre-build test passed successfully
+
+> gifsicle@0.1.4 postinstall /home/ubuntu/youtube_6/node_modules/grunt-contrib-imagemin/node_modules/gifsicle
+> node lib/check.js
+
+
+
+
+✓ pre-build test passed successfully
+
+> pngquant-bin@0.1.6 postinstall /home/ubuntu/youtube_6/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin
+> node lib/check.js
+
+
+
+
+✓ pre-build test passed successfully
+
+> jpegtran-bin@0.2.3 postinstall /home/ubuntu/youtube_6/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin
+> node lib/check.js
+
+
+
+
+✓ pre-build test passed successfully
+grunt-rev@0.1.0 node_modules/grunt-rev
+
+grunt-contrib-concat@0.3.0 node_modules/grunt-contrib-concat
+
+grunt-contrib-copy@0.4.1 node_modules/grunt-contrib-copy
+
+grunt-newer@0.5.4 node_modules/grunt-newer
+
+grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
+└── rimraf@2.2.6
+
+time-grunt@0.2.9 node_modules/time-grunt
+├── date-time@0.1.1
+├── text-table@0.2.0
+├── hooker@0.2.3
+└── chalk@0.4.0 (has-color@0.1.4, ansi-styles@1.0.0, strip-ansi@0.1.1)
+
+grunt-concurrent@0.4.3 node_modules/grunt-concurrent
+├── lpad@0.1.0
+└── async@0.2.10
+
+jshint-stylish@0.1.5 node_modules/jshint-stylish
+├── text-table@0.2.0
+└── chalk@0.4.0 (has-color@0.1.4, ansi-styles@1.0.0, strip-ansi@0.1.1)
+
+grunt-contrib-compass@0.6.0 node_modules/grunt-contrib-compass
+├── dargs@0.1.0
+├── tmp@0.0.21
+└── async@0.2.10
+
+grunt-contrib-htmlmin@0.1.3 node_modules/grunt-contrib-htmlmin
+├── html-minifier@0.5.5
+└── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+
+grunt-contrib-cssmin@0.7.0 node_modules/grunt-contrib-cssmin
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── clean-css@2.0.8 (commander@2.0.0)
+
+grunt-usemin@2.0.2 node_modules/grunt-usemin
+├── debug@0.7.4
+└── lodash@1.0.1
+
+grunt-contrib-coffee@0.7.0 node_modules/grunt-contrib-coffee
+└── coffee-script@1.6.3
+
+grunt-contrib-connect@0.5.0 node_modules/grunt-contrib-connect
+├── connect-livereload@0.2.0
+├── open@0.0.4
+└── connect@2.7.11 (fresh@0.1.0, pause@0.0.1, cookie-signature@1.0.1, debug@0.7.4, qs@0.6.5, bytes@0.2.0, buffer-crc32@0.2.1, cookie@0.0.5, send@0.1.1, formidable@1.0.14)
+
+grunt-contrib-watch@0.5.3 node_modules/grunt-contrib-watch
+├── tiny-lr@0.0.4 (debug@0.7.4, faye-websocket@0.4.4, noptify@0.0.3, qs@0.5.6)
+└── gaze@0.4.3 (globule@0.1.0)
+
+grunt-autoprefixer@0.4.2 node_modules/grunt-autoprefixer
+└── autoprefixer@0.8.20131213 (css-parse@1.6.0, css-stringify@1.4.1)
+
+grunt-contrib-uglify@0.2.7 node_modules/grunt-contrib-uglify
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── uglify-js@2.4.12 (uglify-to-browserify@1.0.2, async@0.2.10, optimist@0.3.7, source-map@0.1.32)
+
+load-grunt-tasks@0.2.1 node_modules/load-grunt-tasks
+├── findup-sync@0.1.2 (glob@3.1.21, lodash@1.0.1)
+└── globule@0.1.0 (minimatch@0.2.14, glob@3.1.21, lodash@1.0.1)
+
+grunt@0.4.2 node_modules/grunt
+├── dateformat@1.0.2-1.2.3
+├── which@1.0.5
+├── eventemitter2@0.4.13
+├── getobject@0.1.0
+├── colors@0.6.2
+├── hooker@0.2.3
+├── async@0.1.22
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── rimraf@2.0.3 (graceful-fs@1.1.14)
+├── exit@0.1.2
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+├── js-yaml@2.0.5
+├── lodash@0.9.2
+├── coffee-script@1.3.3
+├── underscore.string@2.2.1
+├── iconv-lite@0.2.11
+└── findup-sync@0.1.2 (lodash@1.0.1)
+
+grunt-ngmin@0.0.3 node_modules/grunt-ngmin
+└── ngmin@0.4.1 (astral@0.1.0, clone@0.1.11, commander@1.1.1, astral-angular-annotate@0.0.2, escodegen@0.0.28, esprima@1.0.4)
+
+grunt-contrib-jshint@0.7.2 node_modules/grunt-contrib-jshint
+└── jshint@2.3.0 (console-browserify@0.1.6, underscore@1.4.4, minimatch@0.2.14, shelljs@0.1.4, cli@0.4.5)
+
+grunt-bower-install@0.7.0 node_modules/grunt-bower-install
+└── wiredep@0.4.2 (chalk@0.1.1, lodash@1.3.1)
+
+grunt-svgmin@0.2.1 node_modules/grunt-svgmin
+├── filesize@2.0.0
+├── chalk@0.3.0 (has-color@0.1.4, ansi-styles@0.2.0)
+└── svgo@0.3.7 (colors@0.6.2, whet.extend@0.9.9, coa@0.3.9, sax@0.5.8, js-yaml@3.0.1)
+
+grunt-google-cdn@0.2.2 node_modules/grunt-google-cdn
+├── google-cdn@0.1.4 (debug@0.7.4, semver@2.0.11)
+└── bower@0.9.2 (abbrev@1.0.4, stable@0.1.4, archy@0.0.2, semver@1.1.4, nopt@2.0.0, colors@0.6.2, mkdirp@0.3.5, tmp@0.0.23, async@0.2.10, rimraf@2.0.3, fstream@0.1.25, glob@3.1.21, rc@0.0.8, promptly@0.1.0, lodash@1.0.1, read-package-json@0.1.13, tar@0.1.19, request@2.11.4, hogan.js@2.0.0, unzip@0.1.7, update-notifier@0.1.7)
+
+grunt-contrib-imagemin@0.3.0 node_modules/grunt-contrib-imagemin
+├── filesize@1.10.0
+├── chalk@0.2.1 (has-color@0.1.4, ansi-styles@0.2.0)
+├── optipng-bin@0.3.1 (bin-wrapper@0.1.9)
+├── gifsicle@0.1.4 (bin-wrapper@0.1.9)
+├── pngquant-bin@0.1.6 (bin-wrapper@0.1.9)
+└── jpegtran-bin@0.2.3 (bin-wrapper@0.1.9)
