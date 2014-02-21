@@ -9,6 +9,6 @@ This repository was created following everything on the [Yeoman's guide](http://
 * `bower install angular-ui`
 * Changed the hostname in Gruntfile.js from `localhost` to `0.0.0.0`
 * `grunt test` 
-* `grunt serve`
+* `grunt serve` (no errors)
 
-What did I do wrong? How can I fix it?
+What did I do wrong? How can I fix it? I do want livereload.
